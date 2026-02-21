@@ -1,0 +1,101 @@
+$bg-body-tertiary: linear-gradient(#484e55, #3a3f44 60%, #313539);
+
+@import 'bootstrap/scss/bootstrap';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: #272b30;
+}
+.bg-body-tertiary {
+  background: $bg-body-tertiary !important;
+}
+.post {
+  background: black;
+  height: 20px;
+  width: 66px;
+  border-radius: 33px;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+}
+.el, .link {
+  color: #fff;
+  font-size: 15px;
+}
+.el:hover {
+  color: #fff !important;
+  padding: 5px;
+  background: #1c1e22;
+  border-radius: 8px;
+}
+.container-title {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #1c1e22;
+}
+.title, .description {
+  color: yellow;
+}
+.info, .search-title, .non-code-title {
+  color: #fff;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.search-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.serach-http {
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(#484e55, #3a3f44 60%, #313539);
+}
+.non-code, .non-code-title {
+  display: flex;
+  overflow-y: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.non-code-info {
+  min-width: 910px;
+  background: #fff;
+  height: 340px;
+  border-radius: 5px;
+}
+.text-info {
+  color: #fff !important;
+}
+.text-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+.post2 {
+  background: #fff;
+  height: 20px;
+  width: 66px;
+  border-radius: 33px;
+  color: black;
+  font-size: 8px;
+  border: none
+}
